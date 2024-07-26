@@ -662,6 +662,10 @@ video {
   height: 10rem;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -712,6 +716,10 @@ video {
 
 .w-\[95\%\] {
   width: 95%;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .max-w-sm {
