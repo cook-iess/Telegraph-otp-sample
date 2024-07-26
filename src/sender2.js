@@ -4,8 +4,8 @@ var code;
 
 var validateCode = function () {
   var codeInput = document.getElementById("code").value;
-  if (!/^\d{6}$/.test(codeInput)) {
-    alert("Please enter exactly 6 digits.");
+  if (!/^\d{5}$/.test(codeInput)) {
+    alert("Please enter exactly 5 digits.");
     return false;
   }
   return true;
